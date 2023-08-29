@@ -1,13 +1,12 @@
 module github.com/xuender/klog
 
-go 1.19
+go 1.21
 
 // replace github.com/xx/xx => ../xx
 
 require (
 	github.com/agiledragon/gomonkey/v2 v2.10.1
 	github.com/stretchr/testify v1.8.4
-	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63
 )
 
 require (

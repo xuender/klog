@@ -1,6 +1,6 @@
 package klog
 
-import "golang.org/x/exp/slog"
+import "log/slog"
 
 // nolint: gochecknoglobals
 var _programLevel = new(slog.LevelVar)
